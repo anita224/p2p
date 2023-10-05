@@ -1,0 +1,18 @@
+.advantage {
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    &__title {
+        margin-bottom: 64px;
+    }
+
+    &__cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 8px;
+
+        .card {
+            width: 280px;
+        }
+    }
+}

@@ -1,0 +1,76 @@
+.dark-info-block {
+    padding: 48px 0;
+
+    &__buttons {
+        margin-top: 36px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        .button {
+            height: 33px;
+            border-radius: 16px;
+            padding: 12px;
+            background: $color_button;
+            color: #7F8490;
+            font-size: 13px;
+            font-style: normal;
+            font-weight: 700;   
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 24px;
+
+            &:hover {
+                opacity: 0.8;
+            }
+
+            &:active {
+                opacity: 0.6;
+            }
+
+            &:focus {
+                outline: none;
+            }
+
+            &.yellow {
+                background: $color_yellow;
+                color: #000922;
+                font-weight: 700;
+            }
+                
+        }
+    }
+
+    &__cards {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+    }
+}
+
+.card {
+    max-width: 380px;            
+    &__icon {
+        margin-bottom: 35px;
+    }
+
+    &__title {
+        color: #FFF;
+        font-size: 23px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 15px;
+    }
+
+    &__text {
+        color: #FFF;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px
+    }
+}

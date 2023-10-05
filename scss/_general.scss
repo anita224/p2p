@@ -1,0 +1,48 @@
+body {
+    background-color: $color_background;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Lato', sans-serif;    
+}
+
+a {
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    &:hover {
+        color: #b1b1b1;
+        text-decoration: none;
+    }
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.dark-bg-wrapper {
+    background-color: $color_dark_background;
+}
+
+.mt100 {
+    margin-top: 100px;
+}
+
+.title {
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
